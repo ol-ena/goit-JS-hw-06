@@ -22,3 +22,23 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* Begin task 3 */
+
+.gallery {
+    display: flex; 
+    list-style: none;
+}
+
+.img-item {
+  width: 270px;
+  height: 200px;
+}
+
+
+
+.li-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* End task 3 */
